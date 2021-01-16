@@ -1,5 +1,6 @@
 package com.kinetics.witchermc;
 
+import com.kinetics.witchermc.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 public class WitcherMC implements ModInitializer
@@ -9,6 +10,6 @@ public class WitcherMC implements ModInitializer
     @Override
     public void onInitialize()
     {
-
+        ModItems.RegisterItems();
     }
 }
