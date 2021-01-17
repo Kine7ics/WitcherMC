@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "witchermc.mixins.json"
   ],
 
   "depends": {
