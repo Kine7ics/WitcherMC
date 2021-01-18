@@ -1,0 +1,6 @@
+package com.kinetics.witchermc;
+
+public enum EntityType
+{
+    BEAST, CURSED_ONE, DRACONID, ELEMENTAL, HYBRID, INSECTOID, NECROPHAGE, OGROID, RELICT, SPECTER, VAMPIRE, HUMANOID
+}
